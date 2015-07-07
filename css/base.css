@@ -1,0 +1,158 @@
+
+html, h1, h2 {
+ font-family: ‘Metrophobic’, Arial, serif; font-weight: 700;    
+}
+
+p {
+ font-size: 15px;
+    color: #6C6C6C; 
+}
+
+
+
+
+/*make the webpage with fixed max width*/
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1150px; /* or 950px */
+}
+
+
+/*navbar elements*/
+
+
+.navbar{
+    background-color:#393939;
+    margin-bottom: 0px;
+}
+
+
+.navbar-default {
+    border-color: #FF5A09; 
+}
+
+.collapse.navbar-collapse.navbar-right{
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+/* Reference: http://cssmenumaker.com/menu/simple-responsive-menu */
+/* This gives the flashy look to the nav bar*/
+
+
+
+.collapse.navbar-collapse.navbar-right li a {
+  color: #FF5A09;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+.collapse.navbar-collapse.navbar-right li a:hover {
+  color: #333333;
+}
+/*the line that crosses*/
+.collapse.navbar-collapse.navbar-right li a:hover:before {
+  width: 100%;
+}
+/*the dots*/
+.collapse.navbar-collapse.navbar-right li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+.collapse.navbar-collapse.navbar-right li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #333333;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+} 
+/*---*/  
+
+/*footer part*/
+#footertext p, h4{
+    font-size:16px;
+    color: #6C6C6C;
+}
+
+.navbar.navbar-inverse.navbar-bottom {
+    background-color: #0CBC9A;
+    padding-top: 15px;
+    height: 100%;
+    border-color: #70CFBC;
+}
+
+.navbar-text{
+    margin-top: 0px;   
+}
+
+#footertext{
+    width:400px;
+    margin-top: 0px;
+    margin-right:350px;
+    margin-bottom: 30px;
+}
+
+
+/*social icons*/
+.navbar-text > a{
+    color:#6C6C6C;
+    text-decoration:none;    
+}
+
+.navbar-text > a:hover{
+    color:black;
+}
+   
+/*the nice long line to break the text*/
+#pagebreak{
+    width:auto;
+    height:20px;
+    background-color:#70CFBC;
+}
+
+#pagebreak2{
+    width:auto;
+    height:20px; 
+    background-image: url(../photos/rooftest.gif) ;
+  
+  
+}

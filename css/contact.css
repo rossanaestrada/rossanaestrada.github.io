@@ -1,0 +1,63 @@
+/* This is a "Contact" tab css stylesheet */
+@charset "UTF-8";
+
+.navbar{
+	margin-bottom:0px;
+}
+
+
+header div{
+    background-color:#70CFBC;
+	text-align:center;
+	padding:40px;
+}
+
+.img{
+	height: 850px;
+	width: 450px;
+}
+
+form{
+	font-size: 16px;
+	 
+}
+
+address{
+	font-size: 16px;
+}
+
+form{
+	margin-top:10px
+}
+
+.list-group-item{
+ text-align: center;
+}
+
+.row{
+ height:auto;   
+}
+
+.btn-success{
+    margin-top: 20px;
+  background-color: #70CFBC;
+  width: 10em;
+  height: 3em;
+  font-size: 13px;
+}
+
+.btn-success:hover{
+background-color:#0CBC9A;
+}
+
+#contactinfo{
+   margin-left: 20px;
+    margin-right: 20px;
+}
+
+ #contactinfo:hover{
+   -moz-box-shadow: 0 0 10px #288472; 
+     -webkit-box-shadow: 0 0 10px #288472; 
+     box-shadow: 0 0 10px #288472; 
+  
+ }

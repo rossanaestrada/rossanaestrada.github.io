@@ -1,0 +1,71 @@
+/* This is a "Contact" tab css stylesheet */
+@charset "UTF-8";
+ 
+ 
+
+Section{
+    background-color:#70CFBC;
+	text-align:center;
+	padding:40px;
+}
+
+Header{
+    text-align: center;
+}
+#SubNav{
+    list-style-type: none;
+    background: #CCC;
+    padding: 20px;
+}
+
+Header li{
+    display: inline-block;
+}
+
+Header a{
+    width: 33%px;
+    display: block;
+    padding:0 5px;
+    color: black;
+}
+
+li{
+    padding: 20px;
+}
+
+table{
+    width:700px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+td{
+    padding: 20px;
+}         
+
+#GENERALPROBLEM, #TECHNICALPROBLEM, #CUSTOMERSERVICE {
+             position: relative;
+             top: 50px;
+           }
+.spacing{
+    padding: 20px;
+    border-top: 25px solid white;
+    border-bottom: 25px solid white;
+    background-color: white;
+}
+
+.seeMore{
+   font-size: 12pt;
+}
+#main img{
+	border-radius:100%;
+}
+section{
+	color:#000;
+}
+
+.cd-faq-items{
+	width:80%;
+	max-width:1000px;
+	margin:0 auto;
+}
