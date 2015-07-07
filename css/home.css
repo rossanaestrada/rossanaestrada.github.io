@@ -28,7 +28,7 @@
 
 
 /*Second page*/
-.secondpage{
+.home2{
     min-height: 650px;
 	width: 100%;
     background: grey;
@@ -55,21 +55,17 @@
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
-    
 }
  
 .video iframe,  
 .video object,  
 .video embed {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    margin-left: 2px;
-    margin-right: 2px;
-    max-height: 510px;
-    max-width: 854px;
+  
 }
 /*
 .secondpage h1{
