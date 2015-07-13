@@ -9,7 +9,7 @@
     background-image: url("../photos/front2%20copy.jpg");
     
     	text-align:center;
-	background-attachment: relative;
+	
 	background-position: center center;
 
     -webkit-background-size: 100%;
@@ -29,12 +29,12 @@
 
 /*Second page*/
 .home2{
-    min-height: 650px;
+    padding: 40px;
 	width: 100%;
-    background: grey;
+     
+    background: #F3843E;
 
 	text-align:center;
-	background-attachment: relative;
 	background-position: center center;
 
     -webkit-background-size: 100%;
@@ -46,9 +46,11 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
 
 }
+
+ 
+
 
 .video {
     position: relative;
@@ -96,25 +98,7 @@
 
 
 /*Third page*/
-.thirdpage {
-    min-height: 650px;
-	width: 100%;
-    background: yellow;
 
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
 /*Fourth page*/
 .fourthpage {
@@ -122,6 +106,7 @@
 	width: 100%;
     background: red;
 
+    /*
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -135,80 +120,120 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
+    NOT NEEDED NOW */
 }
 
 
 
-/*Second page*/
-#secondpart {
-    background-color: white;
-	padding-top: -70px;
-	padding-bottom: 70px;
-	text-align: center;
-}
 
-#secondpart div.map{
-    margin-top: 50px;
-    display:inline-block;
-    position: relative;
-}
-
-#glyphicon1{
-    position:absolute;
-    display:block;
-    font-size: 40px;
-    margin-left: 11.5%;
-    margin-top:3%;   
-}
-
-#glyphicon2{
-    position:absolute;
-    display:block;
-    font-size: 55px;
-    margin-top: 10%;
-    margin-left: 60%;
-}
-
-#glyphicon3{
-    position:absolute;
-    display:block;
-    font-size: 48px;
-    margin-top: 42%;
-    margin-left: 41%;
-}
-
-
-#secondpart h1 {
-	font-weight: 700;
-}
 
 .container-fluid {
-    text-align: left;   
+    text-align: left;
+   
 }
 
+/* Home2 page */
+
+h3 {
+ color: #393939;   
+}
+
+
+/* Home3 page */
+
+.home3 {
+    min-height: 650px;
+	width: 100%;
+     background: #6E6E6E;
  
-
-
-
-.btn:hover{
-    background-color: #70CFBC;
-    color: black;
 }
 
-.btn{
- background-color: #288472;
-    background-color: 
+
+#further{
+     text-align: center;
+    margin-top: 100px;
+    margin-bottom:60px;
+}
+
+
+
+/* Button from http://codepen.io/Savantos/pen/mHIpt */ 
+/* http://codepen.io/MSACODE/pen/uncli/ */
+#wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
  
-
-.phone {
-    display:none;
-    width: 100%;
+section button {
+  margin: 0 auto;
+  font-size: 2.0rem;
+  padding: 1.25rem 2.5rem;
+  display: block;
+  background-color: #FF5A09;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+    border: 1px solid ; 
+    border-radius: 25px;
 }
 
-
-iframe{
-  background-color: red;   
-}
-
+section button:hover {
+  background-color: #393939;
+  color: #FF5A09;
  
+}
+
+
+section span:hover,
+section span:active {
+  text-decoration: none;
+  color: #F3843E;
+  border-color: #000000; 
+}
+
+section span {
+  display: inline-block;
+  position: relative;
+  padding-right: 0;
+  transition: padding-right 0.5s;
+}
+
+section span:after {
+  content: url(btnpic.png);
+  position: absolute;
+  top: 0;
+  right: -18px;
+  opacity: 0;
+  width: 10px;
+  height: 10px;
+  margin-top:;
+    margin-right: 10px;
+  background: rgba(0, 0, 0, 0);
+  border: 3px solid #FFF;
+  border-top: none;
+  border-right: none;
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  transform: rotate(-45deg);
+}
+
+section:hover span,
+section:active span{
+  padding-right: 30px;
+}
+
+section:hover span:after,
+section:active span:after {
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  opacity: 1;
+  border-color: #FFFFFF;
+  right: 0;
+  top: 50%;
+}
+/*button ending*/
+
