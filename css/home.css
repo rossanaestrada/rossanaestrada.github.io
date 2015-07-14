@@ -52,7 +52,7 @@
 
 .video {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 58%;
     height: 0;
     overflow: hidden;    
 }
@@ -149,11 +149,27 @@ h3 {
 /* Home3 page */
 
 .home3 {
-    min-height: 650px;
+    min-height: 500px;
 	width: 100%;
      background: #6E6E6E;
- 
+     background-image:url(../photos/testing.png);
+        
+  
+	background-position: center center;
+    background-repeat: no-repeat;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
+
 
 
 #further{
@@ -258,5 +274,13 @@ section:active span:after {
 
 .col1{
 margin-bottom:20px;
+}
+
+/*Home3 ending */
+
+/*Home4 start */
+
+.home4{
+  background: #6E6E6E;   
 }
  

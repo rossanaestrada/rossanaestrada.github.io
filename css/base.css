@@ -13,12 +13,13 @@ h1 {
 }
 
 h2 {
- font-size: 18px;   
+ font-size: 18px; 
+
 }
 
 p {
- font-size: 15px;
-    color: #6C6C6C; 
+ font-size: 17px;
+    color: #F3843E; 
 }
 
 
@@ -126,7 +127,7 @@ p {
 
 /*footer part*/
 #footertext p, h4{
-    font-size:16px;
+    font-size:15px;
     color: #F3843E;
 }
 
