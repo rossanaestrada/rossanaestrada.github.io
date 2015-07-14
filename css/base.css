@@ -1,6 +1,19 @@
+@font-face { font-family: 'MYRIADPRO'; src: url('../fonts/MYRIADPRO-REGULAR.OTF'); } 
+@font-face { font-family: 'MYRIADPRO'; font-weight: bold; src: url('myriadpro-bold.otf'); }
+@font-face { font-family: 'Nellasx'; font-weight: bold; src: url('../fonts/Nellasx.ttf'); }
 
-html, h1, h2 {
- font-family: ‘Metrophobic’, Arial, serif; font-weight: 700;    
+
+html, h2, h3, p {
+ font-family: 'MYRIADPRO', Helvetica, Arial, sans-serif, serif; font-weight: 700;    
+}
+
+h1 {
+  font-family: 'Nellasx', Helvetica, Arial, sans-serif, serif; font-weight: 500; 
+    font-size: 80px;
+}
+
+h2 {
+ font-size: 18px;   
 }
 
 p {
