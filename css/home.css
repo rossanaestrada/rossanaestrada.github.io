@@ -6,7 +6,7 @@
     min-height: 650px;
    
 	width: 100%;
-    background-image: url("../photos/front2%20copy.jpg");
+    background-image: url("../photos/front2%20copy2.jpg");
     
     	text-align:center;
 	
@@ -49,14 +49,12 @@
 
 }
 
- 
-
 
 .video {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
-    overflow: hidden;
+    overflow: hidden;    
 }
  
 .video iframe,  
@@ -69,6 +67,14 @@
     height: 100%;
   
 }
+
+span.glyphicon.glyphicon-film{
+  font-size: 1.5em;
+}
+
+/*Page 2 */
+
+
 /*
 .secondpage h1{
     letter-spacing: 2px;
@@ -175,11 +181,10 @@ section button {
   color: #ffffff;
   font-weight: 300;
   -webkit-border-radius: 3px;
-  border-radius: 3px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-    border: 1px solid ; 
+    border: 1px solid transparent; 
     border-radius: 25px;
 }
 
@@ -205,14 +210,13 @@ section span {
 }
 
 section span:after {
-  content: url(btnpic.png);
+   
   position: absolute;
   top: 0;
   right: -18px;
   opacity: 0;
   width: 10px;
   height: 10px;
-  margin-top:;
     margin-right: 10px;
   background: rgba(0, 0, 0, 0);
   border: 3px solid #FFF;
@@ -220,7 +224,22 @@ section span:after {
   border-right: none;
   transition: opacity 0.5s, top 0.5s, right 0.5s;
   transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg);
 }
+
+
+#artistbtn section span:after{
+ content:url(btnpic.png);
+    margin-top:5px;
+}
+
+#embassadorbtn section span:after{
+ content:url(btnpic22.png);
+    
+}
+
+
 
 section:hover span,
 section:active span{
@@ -237,3 +256,4 @@ section:active span:after {
 }
 /*button ending*/
 
+ 
