@@ -70,6 +70,11 @@
 
 span.glyphicon.glyphicon-film{
   font-size: 1.5em;
+    color:#6C6C6C;
+}
+
+.home2 p{
+     color:#6C6C6C;
 }
 
 /*Page 2 */
@@ -281,6 +286,7 @@ margin-bottom:20px;
 /*Home4 start */
 
 .home4{
-  background: #6E6E6E;   
+  background: #6E6E6E;
+    
 }
  
