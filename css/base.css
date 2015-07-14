@@ -25,6 +25,7 @@ p {
 .navbar{
     background-color: #393939; 
     margin-bottom: 0px;
+       border-color: #FF9900;
 }
 
 
@@ -127,13 +128,7 @@ p {
     margin-top: 0px;   
 }
 
-#footertext{
-    width:400px;
-    margin-top: 0px;
-    margin-right:350px;
-    margin-bottom: 30px;
-}
-
+ 
 
 /*social icons*/
 .navbar-text > a{
