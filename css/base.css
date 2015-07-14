@@ -146,6 +146,13 @@ p {
     margin: -1;
 }
 
+#foot2{
+    color:#6C6C6C;
+}
+
+#foot2 a{
+    color:#6C6C6C;
+}
 
 /*the nice long line to break the text*/
 #pagebreak{
