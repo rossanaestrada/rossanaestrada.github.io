@@ -1,6 +1,5 @@
 /* This is a "Home" tab css stylesheet */
 
- 
 
 #main-header{
     min-height: 650px;
@@ -146,8 +145,8 @@ span.glyphicon.glyphicon-film{
 
 /* Home2 page */
 
-h3 {
- color: #393939;   
+h2 {
+ 
 }
 
 
@@ -157,7 +156,7 @@ h3 {
     min-height: 500px;
 	width: 100%;
      background: #6E6E6E;
-     background-image:url(../photos/testing.png);
+     background-image:url(../photos/flowerpower.png);
         
   
 	background-position: center center;
@@ -181,6 +180,7 @@ h3 {
      text-align: center;
     margin-top: 100px;
     margin-bottom:60px;
+     color: #393939;
 }
 
 
@@ -289,4 +289,33 @@ margin-bottom:20px;
   background: #6E6E6E;
     
 }
+
+.home4 h2{
+ margin-top: 50px; 
+    margin-bottom: 60px;
+      color:#FF5A09;
+    text-align: center;
+    font-size:50px;
+}
+
+
+h2 {
+ 
+}
+
+
+p#quote{
+  color:#393939;
+}
+
+.home4 p{
+ text-align: center;   
+}
+
+
+
+ @media (max-width:767px){
+     .home3
+     {background-image: url("../photos/mobileflower2.png")}}
+
  
