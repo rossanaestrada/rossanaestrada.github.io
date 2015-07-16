@@ -55,15 +55,32 @@
 	<!-- Theme JavaScript Core -->
 	<script src="../js/gallery.js"></script> 
         
-          
+     <!-- for the video full screen play -->
+    <script>
+        
+        var $ = document.querySelector.bind(document);
+
+// Once the user clicks a custom fullscreen button
+$(playButtonClass).addEventListener('click', function(){
+  // Play video and go fullscreen
+  player.playVideo();
+
+  var playerElement = $(playerWrapperClass);
+  var requestFullScreen = playerElement.requestFullScreen || playerElement.mozRequestFullScreen || playerElement.webkitRequestFullScreen;
+  if (requestFullScreen) {
+    requestFullScreen.bind(playerElement)();
+  }
+})
+        
+        </script>    
+        
         <!-- add slidein from left for the text below -->
         
         
     </head>
     
        <body id="top">
-           
-           <div id="preloader"></div>
+            
            
           
     <nav class="navbar navbar-default" role="navigation">
@@ -235,7 +252,7 @@
           <div class="col-xs-12 col-sm-12 col-md-6 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                       <img class="grayscale"><iframe  src="https://www.youtube.com/embed/z2R9RIy1UxM" frameborder="0" allowfullscreen></iframe> 
+                       <img class="grayscale"><iframe width="1280" height="720"  src="https://www.youtube.com/embed/z2R9RIy1UxM" frameborder="0" allowfullscreen></iframe> 
                   </div>
               </div>
           </div>
@@ -245,70 +262,34 @@
           <div class="col-xs-12 col-sm-12 col-md-6 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                       <img class="grayscale"><iframe width="560" height="315" src="https://www.youtube.com/embed/z2R9RIy1UxM" frameborder="0" allowfullscreen></iframe> 
+                       <img class="grayscale"><iframe src="https://www.youtube.com/embed/AOJGAbquA1Y" frameborder="0" allowfullscreen></iframe> 
                   </div>
               </div>
           </div>
   	    <!-- PORTFOLIO ITEM END -->
-  					
+              
+              	
   		<!-- PORTFOLIO ITEM 3 -->
-          <div class="col-xs-12 col-sm-12 col-md-3 col-sm-6">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <img class="grayscale"><iframe  src="https://www.youtube.com/embed/z2R9RIy1UxM" frameborder="0" allowfullscreen></iframe>
+                       <img class="grayscale"><iframe src="https://www.youtube.com/embed/YCLTX3loT2s?list=PLvsAn-ytdmHSJZ0lQLqQL9WXGqhpLn2Zv" frameborder="0" allowfullscreen></iframe> 
                   </div>
               </div>
           </div>
   	    <!-- PORTFOLIO ITEM END -->
   					
   		<!-- PORTFOLIO ITEM 4 -->
-          <div class="col-md-3 col-sm-6 ">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="../img/portfolio/portfolio-04-large.jpg" data-lightbox="roadtrip" title="Project Four - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/portfolio-04-thumbnail.jpg" alt="Portfolio Item"></a>
+                       <img class="grayscale"><iframe src="https://www.youtube.com/embed/J66LUq6qUik" frameborder="0" allowfullscreen></iframe> 
                   </div>
               </div>
           </div>
   	    <!-- PORTFOLIO ITEM END -->
   	             
-          <!-- PORTFOLIO ITEM 5 -->
-          <div class="col-md-3 col-sm-6 ">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="../img/portfolio/portfolio-05-large.jpg" data-lightbox="roadtrip" title="Project Five - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/portfolio-05-thumbnail.jpg" alt="Portfolio Item"></a>
-                  </div>
-              </div>
-          </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  	
-  	    <!-- PORTFOLIO ITEM 6 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="../img/portfolio/portfolio-06-large.jpg" data-lightbox="roadtrip" title="Project Six - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/portfolio-06-thumbnail.jpg" alt="Portfolio Item"></a>
-                  </div>
-              </div>
-          </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  					
-  		<!-- PORTFOLIO ITEM 7 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="../img/portfolio/portfolio-07-large.jpg" data-lightbox="roadtrip" title="Project Seven - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/portfolio-07-thumbnail.jpg" alt="Portfolio Item"></a>
-                  </div>
-              </div>
-          </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  					
-  		<!-- PORTFOLIO ITEM 8 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="../img/portfolio/portfolio-08-large.jpg" data-lightbox="roadtrip" title="Project Eight - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/portfolio-08-thumbnail.jpg" alt="Portfolio Item"></a>
-                  </div>
-              </div>
-          </div>
+           
   	    <!-- PORTFOLIO ITEM END -->
         </div><!--/row-->
       </div><!--/.container-->
