@@ -1,5 +1,25 @@
 /* This is a "Home" tab css stylesheet */
 
+.artist1{
+     min-height: 650px;
+	width: 100%;
+     background: #6E6E6E;   
+}
+ 
+
+h2::after{    
+   content:" ";
+	border:solid 1px #CCCCCC;
+	display:block;
+	width:65px;
+	margin:20px auto;
+}
+
+h3{
+    text-align: center;
+}
+
+
 
 #main-header{
     min-height: 650px;
@@ -185,101 +205,6 @@ h2 {
 
 
 
-/* Button from http://codepen.io/Savantos/pen/mHIpt */ 
-/* http://codepen.io/MSACODE/pen/uncli/ */
-#wrapper {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
- 
-section button {
-  margin: 0 auto;
-  font-size: 2.0rem;
-  padding: 1.25rem 2.5rem;
-  display: block;
-  background-color: #FF5A09;
-  color: #ffffff;
-  font-weight: 300;
-  -webkit-border-radius: 3px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-    border: 1px solid transparent; 
-    border-radius: 25px;
-}
-
-section button:hover {
-  background-color: #393939;
-  color: #FF5A09;
- 
-}
-
-
-section span:hover,
-section span:active {
-  text-decoration: none;
-  color: #F3843E;
-  border-color: #000000; 
-}
-
-section span {
-  display: inline-block;
-  position: relative;
-  padding-right: 0;
-  transition: padding-right 0.5s;
-}
-
-section span:after {
-   
-  position: absolute;
-  top: 0;
-  right: -18px;
-  opacity: 0;
-  width: 10px;
-  height: 10px;
-    margin-right: 10px;
-  background: rgba(0, 0, 0, 0);
-  border: 3px solid #FFF;
-  border-top: none;
-  border-right: none;
-  transition: opacity 0.5s, top 0.5s, right 0.5s;
-  transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg); /* IE 9 */
-    -webkit-transform: rotate(-45deg);
-}
-
-
-#artistbtn section span:after{
- content:url(btnpic.png);
-    margin-top:5px;
-}
-
-#embassadorbtn section span:after{
- content:url(btnpic22.png);
-    
-}
-
-
-
-section:hover span,
-section:active span{
-  padding-right: 30px;
-}
-
-section:hover span:after,
-section:active span:after {
-  transition: opacity 0.5s, top 0.5s, right 0.5s;
-  opacity: 1;
-  border-color: #FFFFFF;
-  right: 0;
-  top: 50%;
-}
-/*button ending*/
-
-.col1{
-margin-bottom:20px;
-}
 
 /*Home3 ending */
 
@@ -312,6 +237,31 @@ p#quote{
 
  @media (max-width:767px){
      .home3
-     {background-image: url("../photos/mobileflower2.png")}}
+     {background-image: url("../photos/mobileflower2.png");         min-height: 350px;
+     }
+ #further{
+     text-align: center;
+    margin-top: 40px;
+    margin-bottom:60px;
+     color: #393939;
+}
+     
+     div.home2{
+    padding: 0;
+         padding-top: 30px;
+     }
+     div.container {
+      padding:0px;
+          
+        
+     }
+     .video {
+      width:100%;
+        height:100%;
+           padding-bottom: 300px;
+         margin-bottom: 30px;
+     }
+ 
+ }
 
  

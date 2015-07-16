@@ -51,8 +51,7 @@ p {
 }
 h2 {
 	font-size:15px;
-	color:#353535!important;
-	text-transform:uppercase;
+	color:#353535!important; 
 	font-weight:bold;
 }
 h2::after {
@@ -64,8 +63,7 @@ h2::after {
 }
 h6 {
 	font-size:15px;
-	color:#8c8c8c;
-	text-transform:uppercase;
+	color:#8c8c8c; 
 	font-weight:bold;
 }
 h6::after {
@@ -92,23 +90,7 @@ audio:not([controls]) {
 [hidden] {
 	display: none;
 }
-/* ==========================================================================Base========================================================================== */
-html {
-	font-size:100%;
-	-webkit-text-size-adjust:100%;
-	-ms-text-size-adjust:100%;
-}
-html,html a {
-	-webkit-font-smoothing:antialiased;
-	text-shadow:1px 1px 1px rgba(0,0,0,0.004);
-}
-html,button,input,select,textarea {
-	font-family:'Varela Round',sans-serif;
-}
-body {
-	margin:0;
-	font-family: 'Open Sans',sans-serif;
-}
+ 
 /* ==========================================================================Links========================================================================== */
 a:focus {
 	outline:thin dotted;
@@ -646,50 +628,7 @@ img.grayscale:hover {
 	margin-right:auto;
 	top: 50px;
 }
-/* ==========================================================================Subscribe========================================================================== */
-.subscribe {
-	padding-top:75px;
-}
-.subscribe h1 {
-	color: #FFFFFF;
-	margin-bottom:40px;
-}
-.subscribe h1 span {
-	display:block;
-	font-size:15px;
-	text-transform:uppercase;
-	font-weight:bold;
-	margin-top:20px;
-	letter-spacing:1px;
-}
-.subscribe input[type=text] {
-	background-color:rgba(255,255,255,0.1);
-	border: solid 1px #FFE800;
-	padding:20px;
-	width:30%;
-	color:#808080;
-}
-
-.subscribe input[type=text]:focus {
-    outline: none;
-}
-.subscribe input[type=submit] {
-	background: #FFE800;
-	border: solid 1px #FFE800;
-	padding:20px;
-	color: #E04343;
-	text-transform:uppercase;
-	letter-spacing:1px;
-	transition:all 0.5s ease;
-	-moz-transition:all 0.5s ease;
-	-webkit-transition:all 0.5s ease;
-	-o-transition:all 0.5s ease;
-}
-.subscribe input[type=submit]:hover {
-	background: rgba(255, 232, 0, 0.9);
-	border: solid 1px #FFE800;
-	color: #E04343;
-}
+ 
 /* ==========================================================================CTA========================================================================== */
 .spacer-cta {
 	background-color: #E04343;
@@ -722,62 +661,17 @@ img.grayscale:hover {
 	color:#424242;
 	border: solid 1px #424242;
 }
-  /* ==========================================================================FlexSlider Custom CSS========================================================================== */
-#servicesSlider {
-	margin-top:70px;
-}
-ul.slides li {
-	margin-bottom:20px;
-}
-.features-slider {
-	position:relative;
-	padding:11% 100px 10% 100px;
-	height:400px;
-	background-color:#3F6184;
-}
-.features-slider ul {
-	margin:0;
-	padding:0;
-	list-style:none;
-}
-.features-slider ul li {
-	width:100%;
-}
-.features-slider li h1 {
-	margin-bottom:15px;
-	color:#fff;
-	font-weight:400;
-	font-size:22px;
-}
-.features-slider li p {
-	color:#fff;
-	font-size:14px;
-}
-#clientSlider .flex-control-nav {
-	text-align:left;
-}
-#clientSlider .flex-control-nav li:first-child {
-	margin:0px 4px 0px 0px;
-}
-#clientSlider small {
-	font-size: 12px;
-	font-weight: bold;
-}
-.flex-control-paging li a.flex-active {
-    background: #E04343;
-    border-color: #E04343;
+ 
+
+/*Space after button */
+#artistbtn{
+ margin-bottom: 50px;   
 }
 
-.color-bg .flex-control-paging li a{
-    background: white;
-    border-color: white;
+#embassadorbtn{
+ margin-bottom: 20px;   
 }
 
-.color-bg .flex-control-paging li a.flex-active {
-    background: #FFE800;
-    border-color: #FFE800;
-}
-  
 /* ==========================================================================Responsive========================================================================== */
 /* 320px (iPhone) */
 @media screen and (max-width:320px) {

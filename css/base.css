@@ -16,7 +16,11 @@ h1 {
 h3 {
  font-size: 18px; 
      color: #393939;
+}
 
+h2{
+ text-align: center;
+    margin-top: 30px;
 }
 
 p {
@@ -184,6 +188,101 @@ p {
     background-image: url(../photos/rooftest.gif) ;
 }
 
+/* Homepage 2 Buttons from http://codepen.io/Savantos/pen/mHIpt */ 
+/* http://codepen.io/MSACODE/pen/uncli/ */
+#wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+ 
+section button {
+  margin: 0 auto;
+  font-size: 2.0rem;
+  padding: 1.25rem 2.5rem;
+  display: block;
+  background-color: #FF5A09;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+    border: 1px solid transparent; 
+    border-radius: 25px;
+}
+
+section button:hover {
+  background-color: #393939;
+  color: #FF5A09;
+ 
+}
+
+
+section span:hover,
+section span:active {
+  text-decoration: none;
+  color: #F3843E;
+  border-color: #000000; 
+}
+
+section span {
+  display: inline-block;
+  position: relative;
+  padding-right: 0;
+  transition: padding-right 0.5s;
+}
+
+section span:after {
+   
+  position: absolute;
+  top: 0;
+  right: -18px;
+  opacity: 0;
+  width: 10px;
+  height: 10px;
+    margin-right: 10px;
+  background: rgba(0, 0, 0, 0);
+  border: 3px solid #FFF;
+  border-top: none;
+  border-right: none;
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg);
+}
+
+
+#artistbtn section span:after{
+ content:url(btnpic.png);
+    margin-top:5px;
+}
+
+#embassadorbtn section span:after{
+ content:url(btnpic22.png);
+    
+}
+
+
+
+section:hover span,
+section:active span{
+  padding-right: 30px;
+}
+
+section:hover span:after,
+section:active span:after {
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  opacity: 1;
+  border-color: #FFFFFF;
+  right: 0;
+  top: 50%;
+}
+/*button ending*/
+
+.col1{
+margin-bottom:20px;
+}
 
 /* Effect 15: scale down, reveal */
 .cl-effect-15 a {
