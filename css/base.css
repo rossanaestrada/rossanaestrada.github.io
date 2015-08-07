@@ -1,6 +1,16 @@
 @font-face { font-family: 'MYRIADPRO'; src: url('../fonts/MYRIADPRO-REGULAR.OTF'); } 
 @font-face { font-family: 'MYRIADPRO'; font-weight: bold; src: url('myriadpro-bold.otf'); }
-@font-face { font-family: 'Nellasx'; font-weight: bold; src: url('../fonts/Nellasx.ttf'); }
+
+@font-face { font-family: 'Nellasx'; 
+    src: url('../fonts/nellasx-webfont.eot');
+    src: url('../fonts/nellasx-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nellasx-webfont.woff2') format('woff2'),
+         url('../fonts/nellasx-webfont.woff') format('woff'),
+         url('../fonts/nellasx-webfont.ttf') format('truetype'),
+         url('../fonts/nellasx-webfont.svg#nella_sue_demoregular') format('svg');
+    font-weight: bold;
+}
+
 
 
 html, h2, h3, p {
