@@ -22,7 +22,10 @@
        <!-- Website style CSS -->
        <link rel="stylesheet" type="text/css" href="../css/base.css" />
         <!-- Page specific CSS -->
-       <link rel="stylesheet" type="text/css" href="../css/embassador.css" />
+    <link rel="stylesheet" type="text/css" href="../css/artist.css" />  
+             
+        <!-- Page specific CSS2 -->
+   <!--   <link href="../css/style2.css" rel="stylesheet"> -->
        
       <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../css/bootstrap-social.css">
@@ -30,7 +33,12 @@
         
         <link rel="stylesheet" type="text/css" href="../css/simpletextrotator.css" />
         
-        
+
+        <!-- Lightbox when click photo it opens-->
+	<link href="../assets/lightbox/css/lightbox.css" rel="stylesheet">
+     
+      
+   
       
                 <!-- Bootstrap JavaScript -->
       
@@ -43,8 +51,16 @@
         
           
         <!-- add slidein from left for the text below -->
+     
+ 	 
+    
+	<!-- Lightbox.js when click then box opens -->
+    <script src="../assets/lightbox/js/lightbox.min.js"></script>
+    
+	<!-- Theme JavaScript Core -->
+	<script src="../js/gallery.js"></script> 
         
-        
+    
     </head>
     
        <body>
@@ -68,10 +84,10 @@
             
             <ul class="nav navbar-nav">
                 <li><a href="../index.html">HOME</a></li>
-                <li><a href="artist.html">THE ARTIST</a></li>
-                <li><a href="#">THE CULTURE EMBASSADOR</a></li>
+                <li><a href="../html/artist.html">THE ARTIST</a></li>
+                <li><a href="#">THE CULTURE REPRESENTATIVE</a></li>
                 
-                <li><a href="../html/gallery.html">GALLERY</a></li>
+                <li><a href="../html/gallery.html">MEDIA</a></li>
             </ul>    
          </div>
             
@@ -81,36 +97,185 @@
        
             <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script> -->
     
-       <div class="embassador1"></a>
+       <div class="artist1"></a>
             <div class="container">
                 <div class="container-fluid">
 				    <div class="col-lg-12">
                         <h1>Culture and Colombia</h1>
                         <h3>The meaning to me</h3>
             <br>
-                        <p>Culture is our very first root and it determines who we are and what we should do. It gives us the main basic concepts about our essence, our life and the world around us. 
-I love my culture, my beautiful and colorful Colombia and I want to share with you why ( Stay tune for interesting and amazing posts about it) ( link goes to a blog entrance just about Colombia for knowledge and interesting facts) </p>
+                          <p>Culture is our very first root and it determines who we are and what we should do. It gives us the main basic concepts about our essence, our life and the world around us. 
+                              <span class="highlight">I love my culture</span>, my beautiful and colorful <span class="highlight">Colombia</span> and I want to share with you why. 
              <!-- Linkk with youtube colombia video-->
-                        <p>
-Being passionate about culture is being passionate about many different things: arts, forms of expression, abstract concepts, creative imagination and people! That's a whole world of things to explore and experience ! </p>
-<p>
-As the old saying says: sometimes you don't know what you've got until, at least momentarily, you don't have it. That chance of loosing it for a little bit enables you to appreciate it more! So give it a shot! Keep open minded, go out of your comfort place and explore! </p>
-<p>
-Keeping on being 100% Colombian, I have had the amazing opportunity to live in China for many years already and part of its culture it's already within me. ( Stay tuned for my future performances on Asian dances).
-At the same time being so passionate about cultures, I've managed to travel to many amazing countries trying to learn and keep the best of them with me. I wanna share all this with you - check it out.  
-(That link goes to a traveling blog) <!--LINK TO CHINESE YOUTUBE DANCE--> </p>
+                      
+                              Being passionate about culture is being passionate about many different things: <b>arts</b>, <b>forms of expression, abstract concepts</b>, <b>creative imagination</b> and <b>people</b>! That's a whole world of things to explore and experience! 
+
+                              As the old saying says: sometimes you don't know what you've got until, at least momentarily, you don't have it. That chance of loosing it for a little bit enables you to appreciate it more! So give it a shot! Keep being <span class="highlight">open minded</span>, go out of your comfort zone and explore! 
+
+Keeping on being 100% Colombian, I have had the amazing opportunity to live in China for many years already and part of its culture it's already within me.
+                              At the same time being so passionate about cultures, I've managed to travel to many amazing countries trying to <span class="highlight">learn and keep the best of them with me</span>.   <!--LINK TO CHINESE YOUTUBE DANCE--> 
  
 
-                      <p>  A global village where diverse cultures, visions and beliefs synchronize with each other and coincide with the main purpose of our existence = Happiness.(Link about happiness, other blog entrance idea :p ) 
-That's my ideal world, what's yours? ( link where people can comment and write ideas )  </p> <!--comment section_??-->
+                              A global village where diverse cultures, visions and beliefs synchronize with each other and coincide with the main purpose of our existence = <span class="highlight">Happiness</span>.
+That's my ideal world, what's yours? </p> <!--comment section_??-->
                     </div>
+               
+     
+     
+
+<!-- ==========================
+        PORTFOLIO SECTION
+    =========================== -->
+      <div class="container" >
+          <div class="row row-offset-0">
+              
+          <h2>PHOTOS</h2>
+          </div>
+    </div>
+                    
+                    
+        <div class="container">
+          <div class="row row-offset-0">
+  				
+              
+          <!-- PORTFOLIO ITEM 1 -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="../img/portfolio/2portfolio-01-large.jpg" data-lightbox="roadtrip" title="Project One - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/2portfolio-01-thumbnail.jpg" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  	
+  	    <!-- PORTFOLIO ITEM 2 -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="../img/portfolio/2portfolio-02-large.JPG" data-lightbox="roadtrip" title="Project Two - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/2portfolio-02-thumbnail.JPG" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  					
+  		<!-- PORTFOLIO ITEM 3 -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="../img/portfolio/2portfolio-03-large.png" data-lightbox="roadtrip" title="Project Three - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/2portfolio-03-thumbnail.png" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  					
+  		<!-- PORTFOLIO ITEM 4 -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="../img/portfolio/2portfolio-04-large.JPG" data-lightbox="roadtrip" title="Project Four - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/2portfolio-04-thumbnail.jpg" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  	             
+          <!-- PORTFOLIO ITEM 5 -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="../img/portfolio/2portfolio-05-large.jpg" data-lightbox="roadtrip" title="Project Five - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/2portfolio-05-thumbnail.jpg" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  	
+  	    <!-- PORTFOLIO ITEM 6 -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="../img/portfolio/2portfolio-06-large.jpg" data-lightbox="roadtrip" title="Project Six - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/2portfolio-06-thumbnail.jpg" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  					
+  		<!-- PORTFOLIO ITEM 7 -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="../img/portfolio/2portfolio-07-large.jpg" data-lightbox="roadtrip" title="Project Seven - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/2portfolio-07-thumbnail.jpg" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  					
+  		<!-- PORTFOLIO ITEM 8 -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="../img/portfolio/portfolio-08-large.jpg" data-lightbox="roadtrip" title="2Project Eight - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/2portfolio-08-thumbnail.jpg" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+        
+        <!-- PORTFOLIO ITEM 9 -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="../img/portfolio/2portfolio-09-large.jpg" data-lightbox="roadtrip" title="Project Eight - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/2portfolio-09-thumbnail.jpg" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+              
+              
+        <!-- PORTFOLIO ITEM 10 -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="../img/portfolio/2portfolio-10-large.jpg" data-lightbox="roadtrip" title="Project Eight - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/2portfolio-10-thumbnail.jpg" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+              
+              
+        <!-- PORTFOLIO ITEM 11 -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="../img/portfolio/2portfolio-11-large.jpg" data-lightbox="roadtrip" title="Project Eight - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/2portfolio-11-thumbnail.jpg" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->  
+              
+        <!-- PORTFOLIO ITEM 12 -->
+          <div class="col-md-2 col-sm-3 col-xs-4">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="../img/portfolio/2portfolio-12-large.jpg" data-lightbox="roadtrip" title="Project Eight - Lorem Ipsum"><img class="grayscale" src="../img/portfolio/2portfolio-12-thumbnail.jpg" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+               
+         
+              
+              </div><!--/row-->
+      </div><!--/.container-->
+		<!-- ==========================
+        PORTFOLIO SECTION END
+        =========================== -->
+	 
+			
+    
                 </div>
             </div>
         </div>
         
-     
-        
-        
+                    
+                    
  
         <div class="navbar navbar-inverse navbar-bottom" role="navigation">
             <div class="container">

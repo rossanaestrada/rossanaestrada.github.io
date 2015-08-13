@@ -21,10 +21,7 @@
     -o-background-size: cover;
     background-size: cover;
 }
-
-#home{
-}
-
+ 
 
 /*Second page*/
 .home2{
@@ -72,8 +69,9 @@ span.glyphicon.glyphicon-film{
     color:#6C6C6C;
 }
 
-.home2 p{
+#checkit{
      color:#6C6C6C;
+    
 }
 
 /*Page 2 */
@@ -207,13 +205,14 @@ h2 {
 
 p#quote{
   color:#393939;
+    font-size:15px;
 }
 
 .home4 p{
  text-align: center;   
 }
 
-
+ 
 
  @media (max-width:767px){
      .home3
@@ -226,11 +225,12 @@ p#quote{
      color: #393939;
 }
      
-     div.home2{
+div.home2{
     padding: 0;
-         padding-top: 30px;
-     }
-     div.container {
+    padding-top: 30px;
+}
+
+div.container {
       padding:0px;
           
         

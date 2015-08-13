@@ -11,7 +11,6 @@
 
 
 
-
 /* ==========================================================================
 	Global Styles
 ========================================================================== */
@@ -29,12 +28,7 @@ a:hover,a:focus,a:active {
 	text-decoration:none;
 	outline:none!important;
 }
-p {
-	color:#8c9398;
-	word-spacing:1px;
-	line-height:25px;
-	font-size:14px;
-}
+
 h2 {
 	font-size:15px;
 	color:#353535!important; 
@@ -58,6 +52,12 @@ h6::after {
 	display:block;
 	width:65px;
 	margin-top: 20px;
+}
+
+ 
+ 
+body{
+     background: #6E6E6E; 
 }
 /* ==========================================================================HTML5 display definitions========================================================================== */
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary {
@@ -84,104 +84,7 @@ a:focus {
 a:active,a:hover {
 	outline: 0;
 }
-/* ==========================================================================Typography========================================================================== */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
-h1 {
-	font-size:2em;
-	margin:0.67em 0;
-	color:#353535;
-}
-h2 {
-	font-size:1.5em;
-	margin:0.83em 0;
-}
-h3 {
-	font-size:1.17em;
-	margin:1em 0;
-}
-h4 {
-	font-size:1em;
-	margin:1.33em 0;
-}
-h5 {
-	font-size:0.83em;
-	margin:1.67em 0;
-}
-h6 {
-	font-size: 12px;
-	margin:2.33em 0;
-}
-abbr[title] {
-	border-bottom:1px dotted;
-}
-b,strong {
-	font-weight:bold;
-}
-blockquote {
-	margin:0em 55px;
-	border-left:4px solid #CCCCCC;
-}
-dfn {
-	font-style:italic;
-}
-mark {
-	background:#ff0;
-	color:#000;
-}
-p,pre {
-	margin:1em 0;
-}
-code,kbd,pre,samp {
-	font-family:monospace,serif;
-	_font-family:'courier new',monospace;
-	font-size:1em;
-}
-pre {
-	white-space:pre;
-	white-space:pre-wrap;
-	word-wrap:break-word;
-}
-q {
-	quotes:none;
-}
-q:before,q:after {
-	content:'';
-	content:none;
-}
-small {
-	font-size:75%;
-}
-sub,sup {
-	font-size:75%;
-	line-height:0;
-	position:relative;
-	vertical-align:baseline;
-}
-sup {
-	top:-0.5em;
-}
-sub {
-	bottom:-0.25em;
-}
-p {
-	font-size: 14px;
-	font-weight:100;
-	line-height: 28px!important;
-}
-/* ==========================================================================Lists========================================================================== */
-dl,menu,ol,ul {
-	margin:1em 0;
-}
-dd {
-	margin:0 0 0 40px;
-}
-menu,ol,ul {
-	padding:0 0 0 40px;
-}
-nav ul,nav ol {
-	list-style:none;
-	list-style-image: none;
-}
+
 /* ==========================================================================Embedded content========================================================================== */
 img {
 	border:0;
@@ -482,7 +385,7 @@ table {
 }
 /* ==========================================================================Portfolio========================================================================== */
 .swag {
-	padding:75px 0;
+	padding:25px 0;
 }
 .swag h1 {
 	text-transform:uppercase;
@@ -777,3 +680,6 @@ img.grayscale:hover {
 	    padding-bottom: 40px;
 	}
 }
+
+
+
