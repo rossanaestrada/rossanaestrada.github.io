@@ -120,6 +120,14 @@ span.glyphicon.glyphicon-film{
 }
  
   
+/*adjusting the title of the photos to left since the gallery itself is a bit sifted to right due to animation*/
+h2#adjustleft{
+    margin-left: -50px;
+}  
+
+
+
+
 
 @media screen and (max-width: 910px) {
     
@@ -132,6 +140,13 @@ span.glyphicon.glyphicon-film{
     -moz-column-gap: 50px; /* Firefox */
     column-gap: 50px;
 }
+    
+    
+
+h2#adjustleft{
+    margin-left: 0px;
+}  
+    
 }
  
  
@@ -162,7 +177,7 @@ a {
 	-moz-transition:all 0.5s;
 	-o-transition:all 0.5s;
 	transition:all 0.5s;
-	border-bottom: 1px dashed;
+	
 	outline:none!important;
 }
 a:hover,a:focus,a:active {
@@ -172,7 +187,7 @@ a:hover,a:focus,a:active {
 }
 
 h2 {
-	font-size:15px;
+	font-size:17.5px;
 	color:#353535!important; 
 	font-weight:bold;
 }
