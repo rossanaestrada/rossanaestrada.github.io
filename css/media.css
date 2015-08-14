@@ -46,8 +46,8 @@ a:focus {
 	font-weight: 300;
 	text-shadow: none;
     text-decoration: underline;
-    margin-right:50px; 
-    margin-left:50px;
+    margin-right:10%; 
+    margin-left:10%;
     margin-bottom: 30px;
 }
 
