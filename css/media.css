@@ -7,7 +7,7 @@
 }
 
 
-.container{
+.media{
  text-align: center;
     vertical-align: middle;
 }
@@ -18,18 +18,63 @@
     vertical-align: middle;
 }
 
+
+
+/* Reference: http://tympanus.net/Development/CreativeLinkEffects/#cl-effect-21 */
+/* zoom in effect for links*/
+a {
+	position: relative;
+	display: inline-block;
+    font-size: 15px;
+    color: #F3843E;
+	outline: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+a:hover,
+a:focus {
+	outline: none;
+}
+
+.cl-effect-15 a {
+	color: rgba(0,0,0,0.2);
+	font-weight: 300;
+	text-shadow: none;
+    text-decoration: underline;
+    margin-right:50px; 
+    margin-left:50px;
+    margin-bottom: 30px;
+}
+
+.cl-effect-15 a::before {
+	 
+    color: #F3843E;
+	content: attr(data-hover);
+	position: absolute;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.cl-effect-15 a:hover::before,
+.cl-effect-15 a:focus::before {
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	transform: scale(0.9);
+	opacity: 0;
+}
+/*END of creative link effect*/
+
+
 /* ==========================================================================
 	Global Styles
 ========================================================================== */
-a {
-	color: #E04343;
-	-webkit-transition:all 0.5s;
-	-moz-transition:all 0.5s;
-	-o-transition:all 0.5s;
-	transition:all 0.5s;
-	 text-decoration: underline;
-	outline:none!important;
-}
+
  
 
 h2 {
@@ -80,13 +125,7 @@ audio:not([controls]) {
 	display: none;
 }
  
-/* ==========================================================================Links========================================================================== */
-a:focus {
-	
-}
-a:active,a:hover {
-	
-}
+
 
 /* ==========================================================================Embedded content========================================================================== */
 img {
