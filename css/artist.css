@@ -173,20 +173,26 @@ h2#adjustleft{
 
 /*Space after button */
 #artistbtn{
- margin-bottom: 50px; 
-     margin-top: 20px; 
+ margin-top: 20px;
+ margin-left: 60%;
+    margin-right: 0;
    
 }
 
 #embassadorbtn{
- margin-bottom: 20px; 
-    margin-top: 20px;
+ margin-top: 20px;
+ margin-left: 60%;
+    margin-right: 0;
 }
  
 
 #videobtn{
-    padding-top: 20px;
+   margin-top: 20px;
+ margin-right: 60%;
+    margin-left: 0;
 }
+
+
 
 
 
@@ -565,13 +571,7 @@ img.grayscale:hover {
     
     
     
-    #artistbtn{
- margin-top: 80px;   
-}
-    
-    #embassadorbtn{
-    margin-top: 80px;
-}
+
     
     
     
@@ -584,13 +584,29 @@ img.grayscale:hover {
 	}
     
      
-    #artistbtn{
- margin-top: 80px;   
+  #artistbtn{
+ margin-top: 20px;
+      
+ margin-left: 0;
+    margin-right: 0;
+   
 }
+
+#embassadorbtn{
+ margin-top: 20px;
+ margin-left: 0;
+    margin-right: 0;
+}
+ 
+
+#videobtn{
+   margin-top: 20px;
+ margin-right: 0;
+    margin-left: 0;
+    margin-bottom: -40px;
+}
+
     
-      #embassadorbtn{
-    margin-top: 80px;
-}
     
     
 }
