@@ -165,6 +165,28 @@ h2#adjustleft{
 
 
 
+/* this is added here since in the 'base.css' the effect will not be suitable for page 1*/
+.navbar.navbar-inverse.navbar-bottom {
+    margin-top: 90px;   
+}
+
+
+/*Space after button */
+#artistbtn{
+ margin-bottom: 50px; 
+     margin-top: 20px; 
+   
+}
+
+#embassadorbtn{
+ margin-bottom: 20px; 
+    margin-top: 20px;
+}
+ 
+
+#videobtn{
+    padding-top: 20px;
+}
 
 
 
@@ -486,14 +508,6 @@ img.grayscale:hover {
  
  
 
-/*Space after button */
-#artistbtn{
- margin-bottom: 50px;   
-}
-
-#embassadorbtn{
- margin-bottom: 20px;   
-}
 
 /* ==========================================================================Responsive========================================================================== */
 /* 320px (iPhone) */
@@ -548,6 +562,19 @@ img.grayscale:hover {
 	.wp2,.wp4,.wp5,.light-box {
 		margin-bottom:30px;
 	}
+    
+    
+    
+    #artistbtn{
+ margin-top: 80px;   
+}
+    
+    #embassadorbtn{
+    margin-top: 80px;
+}
+    
+    
+    
 }
 @media screen and (max-width:50em) {
 	.icon-list a {
@@ -555,6 +582,17 @@ img.grayscale:hover {
 		margin:0 5px;
 		font-size:1em;
 	}
+    
+     
+    #artistbtn{
+ margin-top: 80px;   
+}
+    
+      #embassadorbtn{
+    margin-top: 80px;
+}
+    
+    
 }
 
 

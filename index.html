@@ -12,7 +12,9 @@
        <meta property="og:description" content="Rossana Estrada: Artist and performer, combining arts with culture and energy. Unofficial ambassador of Colombia currently residing in China." />
        <meta property="og:type" content="website" />
        <meta property="og:url" content="http://www.rossanaestrada.com" />
-       <meta property="og:image" content="/photos/front5.jpg" />
+       <meta property="og:image" content="/photos/sharing.jpg" />
+        
+        
        
        <title>Rossana Estrada</title>
        
@@ -55,8 +57,12 @@
   ga('send', 'pageview');
 
 </script>
+    
+        
+      <script src="dist/js/smooth-scroll.js"></script> 
         
         
+    
         
     </head>
     
@@ -109,7 +115,7 @@
             
         </div>
         
-        
+      <a data-scroll href="#aboutmevideo"><img src="img/coopy.png" id="scroll-down"> </a>  
         
     <div id="pagebreak">
   
@@ -119,15 +125,17 @@
         <div class="home2">
             <div class="container">
                 <div class="container-fluid">
+                    
+        <div id="aboutmevideo">       
 				    <div class="col-lg-12 col-md-10">
-                      <div id="checkit">   <span class="glyphicon glyphicon-film"> </span>  Check out my latest video </div>
+                      <div id="checkit">   <p><span class="glyphicon glyphicon-film">  </span>&nbsp;&nbsp;  About Me  </p></div>
              <br>           
                         <div class="video col-xs-12">	 
                             <iframe src="https://www.youtube.com/embed/PS3m8RtMD94" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                  
-                      
+           </div>            
                     <br>
               
                 </div>
@@ -232,7 +240,20 @@
                     
                 </div>
             </div>
-        </div>    
-    
+        </div> 
+        
+        
+
+       	<script>
+		smoothScroll.init({
+			speed: 1000,
+			easing: 'easeInOutCubic',
+			offset: 0,
+			updateURL: true,
+			callbackBefore: function ( toggle, anchor ) {},
+			callbackAfter: function ( toggle, anchor ) {}
+		});
+	</script> 
+        
 </body>
 </html>
