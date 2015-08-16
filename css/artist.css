@@ -2,9 +2,11 @@
 
 .artist1{
      min-height: 550px;
+    
 	width: 100%;
      background: #6E6E6E;  
-    
+    margin-top:5%;
+    margin-bottom:10%;
 
      
 }
@@ -24,6 +26,12 @@
       background: #F3843E;
     padding-bottom: 40px;
 }
+
+.furtherbuttons{
+margin:3%;
+    
+}
+
 
 h1{
     text-align: center;
