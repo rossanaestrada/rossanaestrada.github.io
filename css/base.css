@@ -11,7 +11,12 @@
     font-weight: bold;
 }
 
-
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
 
 html, h2, h3, p {
  font-family: 'MYRIADPRO', Helvetica, Arial, sans-serif, serif; font-weight: 700;    

@@ -40,8 +40,11 @@
       
          <script src="js/jquery.js"></script>  
          <script src="js/bootstrap.min.js"></script>
-        
+  
         <script type="text/javascript" src="js/jquery.simple-text-rotator.js"></script>
+        
+         <!-- check viewport and give animation-->     <script src="js/wow.min.js"></script>
+        
         
        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>    PROBABLY DELETE -->
         
@@ -63,7 +66,8 @@
         
       <script src="dist/js/smooth-scroll.js"></script> 
         
-        
+       
+       
     
         
     </head>
@@ -112,6 +116,8 @@
                
                 <h1>Rossana Estrada</h1>
               
+                
+                
             </div>
             
             
@@ -129,7 +135,7 @@
                 <div class="container-fluid">
                     
         <div id="aboutmevideo">       
-				    <div class="col-lg-12 col-md-10 animated infinite bounce visible" data-animation="bounce" data-delay="500">
+				    <div class="col-lg-12 col-md-10 animated wow slideInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                       <div id="checkit">   <p><span class="glyphicon glyphicon-film">  </span>&nbsp;&nbsp;  About Me  </p></div>
              <br>           
                         <div class="video col-xs-12">	 
@@ -198,7 +204,7 @@
                             <hr width="30%">
                            
                   
-                   <div class="grid__item color-8">
+                   <div class="grid__item color-8 animated wow zoomIn" data-wow-duration="1s" data-wow-delay="0.5s">
 				<a class="link link--manko" href="mailto:rossanaestrada3@gmail.com">Let's talk! <span>Genuine</span> <span>Inspiring</span></a>
 			</div>     
                            
@@ -234,7 +240,7 @@
                     
                     <a href="http://i.youku.com/u/UMzEzNzczODIwOA==/"><img src="photos/Youku.png" alt="Youku Channel"> </a> 
                     
-                   <img src="photos/RasmusKors2.png" alt="Rasmus Kors" style="float:right;"></a>
+                   <img src="photos/RasmusKors2.png" alt="Rasmus Kors" style="float:right;"> 
                     </div>
                 
                 </div>
@@ -257,6 +263,14 @@
 			callbackAfter: function ( toggle, anchor ) {}
 		});
 	</script> 
+    
+        
+        
+        <script>
+        new WOW().init();
+        </script>
+    
+    
         
 </body>
 </html>
