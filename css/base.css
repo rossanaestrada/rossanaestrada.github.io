@@ -592,6 +592,19 @@ position: absolute;
 /* Media Queries */
 @media screen and (max-width: 50em) {
 	.link--surinami { font-size: 3em; }
+    
+    
+    
+    #scroll-down{
+position: absolute;
+    margin: auto;
+    bottom: 3%; 
+    left: 70%;
+    right: 0; 
+}
+    
+    
+
 }
 
 @media screen and (max-width: 42em) {

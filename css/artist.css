@@ -1,7 +1,7 @@
 /* This is a "Home" tab css stylesheet */
 
 .artist1{
-     min-height: 650px;
+     min-height: 550px;
 	width: 100%;
      background: #6E6E6E;  
     
@@ -16,9 +16,13 @@
 
     -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
     -moz-column-gap: 50px; /* Firefox */
-    column-gap: 50px;
-    
-    margin-bottom: 50px;
+    column-gap: 50px; 
+}
+
+
+.artist2{
+      background: #F3843E;
+    padding-bottom: 40px;
 }
 
 h1{
@@ -121,9 +125,7 @@ span.glyphicon.glyphicon-film{
  
   
 /*adjusting the title of the photos to left since the gallery itself is a bit sifted to right due to animation*/
-h2#adjustleft{
-    margin-left: -50px;
-}  
+
 
 
 
