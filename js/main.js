@@ -127,7 +127,7 @@ jQuery(document).ready(function($){
     
     
     
-    /*That will set the body class to .loaded after 3 seconds */
+    /*IMPORTANT, for the first loader, That will set the body class to .loaded after 6 seconds */
    
  
     setTimeout(function(){
