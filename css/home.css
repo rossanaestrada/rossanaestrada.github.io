@@ -178,6 +178,7 @@ h2 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+     
 }
 
 
@@ -224,9 +225,21 @@ p#quote{
  
 
  @media (max-width:767px){
-     .home3
-     {background-image: url("../photos/mobileflower2.png");         min-height: 350px;
-     }
+.home3{
+    background-image: url("../photos/mobileflower2%20copy.png");          
+    background-size:cover;
+    min-height: 550px;
+}
+  
+#artistbtn{
+    padding-top:30px;
+}   
+     
+     
+#embassadorbtn{
+    margin-top:115px;
+}
+     
  #further{
      text-align: center;
     margin-top: 40px;
