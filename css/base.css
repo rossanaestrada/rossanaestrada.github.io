@@ -20,6 +20,8 @@
     height: 100%;
     z-index: 1000;
 }
+
+/*circle properties*/
 #loader {
     display: block;
     position: relative;
@@ -38,6 +40,7 @@
     z-index: 1001;
 }
 
+/*circle properties*/
     #loader:before {
         content: "";
         position: absolute;
@@ -53,6 +56,7 @@
         animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
     }
 
+/*circle properties*/
     #loader:after {
         content: "";
         position: absolute;
@@ -93,6 +97,7 @@
         }
     }
 
+
     #loader-wrapper .loader-section {
         position: fixed;
         top: 0;
@@ -120,6 +125,7 @@
             -ms-transform: translateX(-100%);  /* IE 9 */
                 transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
 
+        /*comment: the '0.7' and '0.3' here affect the second number in '.loaded #loader-wrapper', making it '1'*/
         -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  
                 transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
     }
@@ -129,6 +135,8 @@
             -ms-transform: translateX(100%);  /* IE 9 */
                 transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
 
+        
+        /*comment: the '0.7' and '0.3' here affect the second number in '.loaded #loader-wrapper', making it '1'*/
 -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  
         transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
     }
@@ -277,40 +285,6 @@ color: #393939;
 .collapse.navbar-collapse.navbar-right li a:hover:before {
   width: 100%;
 }
-/*the dots
-.collapse.navbar-collapse.navbar-right li a:after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 10px;
-  top: 19px;
-  height: 6px;
-  width: 6px;
-  background: #ffffff;
-  opacity: .5;
-}
-.collapse.navbar-collapse.navbar-right li a:before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 3px;
-  width: 0;
-  background: #333333;
-  -webkit-transition: width .25s;
-  -moz-transition: width .25s;
-  -ms-transition: width .25s;
-  -o-transition: width .25s;
-  transition: width .25s;
-} 
-*/
-/*---*/  
-
-
-
-
-
 
 
 

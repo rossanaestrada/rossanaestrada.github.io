@@ -129,12 +129,10 @@ jQuery(document).ready(function($){
     
     /*IMPORTANT, for the first loader, That will set the body class to .loaded after 6 seconds */
    
- 
     setTimeout(function(){
         $('body').addClass('loaded');
     }, 6000);
  
-
     
     
 });
