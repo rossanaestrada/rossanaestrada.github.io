@@ -2,9 +2,9 @@
 <html>
     <head>
        <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
-       <meta name="author" content="Rossana Estrada" />
-       <meta name="description" content="Artist and performer, combining arts with culture to create an unique blend. Unofficial ambassador of Colombia currently residing in China. My speciality is Latin Dance (Salsa, Merengue, Cha Cha, Bachata, Zumba and Lambada). I have been dancing since 6 years old. Extensively represented Colombia in universities, China National TV, various Colombian Embassy (Beijing) events, and media outlets." />
-       <meta name="keywords" content="Rossana, Estrada, Salsa, Artist, Dancer, Beijing, China, Colombia, Colombiana, Latin" />
+       <meta name="author" content="Rossana Estrada - China Bachata Championship 1st Runner Up 2015" />
+       <meta name="description" content="China Bachata Championship 1st Runner Up 2015. Artist and performer, combining arts with culture to create an unique blend. Unofficial ambassador of Colombia currently residing in China. My speciality is Latin Dance (Salsa, Merengue, Cha Cha, Bachata, Zumba and Lambada). I have been dancing since 6 years old. Extensively represented Colombia in universities, China National TV, various Colombian Embassy (Beijing) events, and media outlets." />
+       <meta name="keywords" content="Rossana, Estrada, Salsa, Artist, Dancer, Beijing, China, Colombia, Colombiana, Latin, Champion, Bachata" />
        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
        
        <meta property="og:locale" content="en_GB" />
@@ -75,7 +75,7 @@
     <body>
        
           <!-- ****************************** Preloader ************************** -->
-      
+      <!-- COMMENT OUT FOR DEV 
  <div id="loader-wrapper">
 			<div id="loader"></div>
 
@@ -83,7 +83,7 @@
             <div class="loader-section section-right"></div>
 
 		</div>
-        
+     --> 
         
     <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -148,13 +148,19 @@
              <br>           
                         <div class="video col-xs-12">	 
                            <iframe   frameborder="0" allowfullscreen
- src="http://player.youku.com/embed/XMTMzNjIyMzQzNg"></iframe> <!--  <iframe src="https://www.youtube.com/embed/PS3m8RtMD94" frameborder="0" allowfullscreen></iframe> -->
+ src="https://www.youtube.com/embed/PS3m8RtMD94" name="videoChange"></iframe> <!--  <iframe src="https://www.youtube.com/embed/PS3m8RtMD94" frameborder="0" allowfullscreen></iframe> 
+
+http://player.youku.com/embed/XMTMzNjIyMzQzNg
+-->
                         </div>
                     </div>
                  
            </div>            
-                    <br>
-              
+                    
+                    <p> &nbsp;</p>
+                    <h3 id="youkudirect1">Can't see the video? Watch at <a href="http://player.youku.com/embed/XMTMzNjIyMzQzNg" target="videoChange">Youku!</a></h3>
+                     <h3 id="youkudirect2">看不到视频？ 在<a href="http://player.youku.com/embed/XMTMzNjIyMzQzNg" target="videoChange">优酷观看!</a></h3> 
+
                 </div>
             </div> 
         </div>
@@ -164,7 +170,23 @@
     <div id="pagebreak">
    
     </div>        
-       
+    
+         
+    <!-- Large bootstrap modal -->
+        <!-- Winner Pop-up -->
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <h2>China Bachata Championship, 2nd place!</h2>
+<h1 style="font-size:20px; text-align:center;">Bachata Champion Rossana Estrada</h1>   
+        
+        <img src="photos/bachata-champion.JPG" style="width:100%;">
+        
+    </div>  
+  </div>
+</div>
+      
+        
         
          <div class="center-block home3">
             <div class="container">
@@ -280,6 +302,37 @@
     
         <script src="js/main.js"></script>
     
+        <!--winner popup-->
+        <script>
+         $.chain = function() {
+        var promise = $.Deferred().resolve().promise();
+        jQuery.each( arguments, function() {
+          promise = promise.pipe( this );
+        });
+        return promise;
+      };  
+        
+      function scrollTop(){
+        if(typeof pageYOffset!= 'undefined'){
+          return pageYOffset;
+        }
+        else{
+          var b = document.body; //IE 'quirks'
+          var d = document.documentElement; //IE with doctype
+          d = (d.clientHeight)? d : b;
+          return d.scrollTop;
+        }
+      }    
+          
+      $(window).on("scroll", function(){
+        if(scrollTop() >= 500){
+        $(window).off("scroll");
+          var animations = $.chain(function() {
+            return $(".bs-example-modal-lg").fadeIn('slow').modal("show");
+          });
+        };
+      });
+        </script>
         
 </body>
 </html>

@@ -139,7 +139,15 @@ span.glyphicon.glyphicon-film{
      
 }
 
+#youkudirect1{ 
+    text-align: center;
+     color: #393939;
+}
 
+#youkudirect2{
+     text-align: center;
+     color: #393939;
+}
 
 
 #further{
@@ -221,3 +229,7 @@ div.container {
  }
 
  
+/*Winner pop-up*/
+.bs-example-modal-lg{
+    display: none;
+}
